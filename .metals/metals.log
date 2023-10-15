@@ -414,3 +414,73 @@ scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed comment
 2023.09.19 16:27:43 INFO  shutting down Metals
 2023.09.19 16:27:43 INFO  Shut down connection with build server.
 2023.09.19 16:27:43 INFO  Exiting server
+2023.10.15 12:05:06 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.83.1.
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+정보: Flyway Community Edition 9.21.2 by Redgate
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: See release notes here: https://rd.gt/416ObMi
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: 
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.FlywayExecutor execute
+정보: Database: jdbc:h2:file:C:\Users\amych\github_SNU\2023-2\pp202302\.metals\metals (H2 2.1)
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.internal.command.DbValidate validate
+정보: Successfully validated 4 migrations (execution time 00:00.020s)
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+정보: Current version of schema "PUBLIC": 4
+10월 15, 2023 12:05:06 오후 org.flywaydb.core.internal.command.DbMigrate logSummary
+정보: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.15 12:05:07 INFO  time: initialize in 0.73s
+2023.10.15 12:05:10 INFO  Attempting to connect to the build server...
+2023.10.15 12:05:10 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.10.15 12:05:10 WARN  No build session currently active to reload.
+2023.10.15 12:05:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.15 12:05:12 INFO  BSP server: Starting compilation server
+2023.10.15 12:05:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.15 12:05:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.15 12:05:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.15 12:05:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.15 12:05:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.15 12:05:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.15 12:05:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.15 12:05:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.15 12:05:25 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.15 12:05:25 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.15 12:05:25 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.15 12:05:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.15 12:05:26 INFO  time: Connected to build server in 16s
+2023.10.15 12:05:26 INFO  Connected to Build server: scala-cli v1.0.4
+2023.10.15 12:05:27 INFO  time: Imported build in 0.31s
+2023.10.15 12:05:29 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.10.15 12:05:33 INFO  time: indexed workspace in 6.52s
+2023.10.15 12:05:36 INFO  time: compiled test_Scala_bd2c96d2de in 6.56s
+2023.10.15 12:05:36 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.10.15 12:05:36 INFO  time: compiled test_Scala_bd2c96d2de in 24ms
+2023.10.15 12:10:36 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:13:34 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:16:59 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:05 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:06 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:06 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:07 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:09 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:10 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:11 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:12 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:12 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:13 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:14 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:19 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:20 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:21 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\code\test.scala
+2023.10.15 12:17:21 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:55 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:17:58 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/test.scala
+2023.10.15 12:19:32 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/code/package.scala
+2023.10.15 12:20:08 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\code\test.scala
+2023.10.15 12:21:07 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/src/test.sc
+2023.10.15 12:26:49 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\build.sbt
+2023.10.15 12:27:21 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.15 12:29:30 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.15 12:29:54 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\test\scala\MySuite.scala
+2023.10.15 12:30:57 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.15 12:30:59 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
