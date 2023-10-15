@@ -1,0 +1,416 @@
+2023.09.19 14:19:56 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\amych\test_Scala' for client Visual Studio Code 1.82.2.
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+정보: Flyway Community Edition 9.21.2 by Redgate
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: See release notes here: https://rd.gt/416ObMi
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: 
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.FlywayExecutor execute
+정보: Database: jdbc:h2:file:C:\Users\amych\test_Scala\.metals\metals (H2 2.1)
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+정보: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbValidate validate
+정보: Successfully validated 4 migrations (execution time 00:00.017s)
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+정보: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+정보: Current version of schema "PUBLIC": << Empty Schema >>
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+정보: Migrating schema "PUBLIC" to version "1 - Create tables"
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+정보: Migrating schema "PUBLIC" to version "2 - Server discovery"
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+정보: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+정보: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+9월 19, 2023 2:19:56 오후 org.flywaydb.core.internal.command.DbMigrate logSummary
+정보: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.024s)
+2023.09.19 14:19:56 INFO  time: initialize in 0.67s
+2023.09.19 14:20:01 INFO  no build target found for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+9월 19, 2023 2:20:01 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 2
+9월 19, 2023 2:20:02 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1
+9월 19, 2023 2:20:02 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 11
+2023.09.19 14:20:04 INFO  Running List(C:\Users\amych\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\amych\test_Scala)
+2023.09.19 14:20:04 INFO  Attempting to connect to the build server...
+2023.09.19 14:20:04 INFO  time: code lens generation in 2.25s
+2023.09.19 14:20:04 INFO  time: code lens generation in 2.37s
+2023.09.19 14:20:04 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.09.19 14:20:04 WARN  No build session currently active to reload.
+2023.09.19 14:20:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\test_Scala\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 14:20:04 INFO  BSP server: Starting compilation server
+2023.09.19 14:20:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.9-sc-1/bloop-frontend_2.12-1.5.9-sc-1.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.9-sc-1/bloop-frontend_2.12-1.5.9-sc-1.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.9-sc-1/bloop-backend_2.12-1.5.9-sc-1.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.9-sc-1/bloop-backend_2.12-1.5.9-sc-1.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2023.09.19 14:20:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.3/test-agent-1.8.3.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.9-sc-1/bloop-shared_2.12-1.5.9-sc-1.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.3/test-agent-1.8.3.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.9-sc-1/bloop-shared_2.12-1.5.9-sc-1.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2023.09.19 14:20:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.2/test-agent-1.9.2.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.2/test-agent-1.9.2.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2023.09.19 14:20:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.9-sc-1/bloop-frontend_2.12-1.5.9-sc-1.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.2/test-agent-1.9.2.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.9-sc-1/bloop-backend_2.12-1.5.9-sc-1.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.2/test-agent-1.9.2.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.9-sc-1/bloop-shared_2.12-1.5.9-sc-1.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.9-sc-1/bloop-shared_2.12-1.5.9-sc-1.jar
+2023.09.19 14:20:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2023.09.19 14:20:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.9-sc-1/bloop-backend_2.12-1.5.9-sc-1.jar
+2023.09.19 14:20:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2023.09.19 14:20:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.9-sc-1/bloop-frontend_2.12-1.5.9-sc-1.jar
+2023.09.19 14:20:15 INFO  BSP server: Still downloading:
+2023.09.19 14:20:15 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (62.00 %, 6340405 / 10225728)
+2023.09.19 14:20:15 INFO  BSP server: 
+9월 19, 2023 2:20:21 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 40
+2023.09.19 14:20:21 INFO  BSP server: Still downloading:
+2023.09.19 14:20:21 INFO  BSP server: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (95.97 %, 9813813 / 10225728)
+2023.09.19 14:20:21 INFO  BSP server: 
+2023.09.19 14:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.09.19 14:20:24 ERROR Timeout waiting for 'build/initialize' response
+2023.09.19 14:20:24 WARN  Retrying connection to the build server scala-cli
+2023.09.19 14:20:24 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.09.19 14:20:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\test_Scala\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 14:20:24 INFO  BSP server: Starting compilation server
+2023.09.19 14:20:29 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 14:20:29 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 14:20:29 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 14:20:29 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 14:20:29 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 14:20:29 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 14:20:29 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 14:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 14:20:31 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 14:20:31 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 14:20:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 14:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 14:20:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 14:20:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 14:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 14:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 14:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2023.09.19 14:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2023.09.19 14:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.09.19 14:20:37 INFO  BSP server: Still downloading:
+2023.09.19 14:20:37 INFO  BSP server: https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar (30.29 %, 753664 / 2487777)
+2023.09.19 14:20:37 INFO  BSP server: 
+2023.09.19 14:20:42 INFO  BSP server: Still downloading:
+2023.09.19 14:20:42 INFO  BSP server: https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar (73.70 %, 1833600 / 2487777)
+2023.09.19 14:20:42 INFO  BSP server: 
+2023.09.19 14:20:44 ERROR Timeout waiting for 'build/initialize' response
+2023.09.19 14:20:44 WARN  Retrying connection to the build server scala-cli
+2023.09.19 14:20:44 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.09.19 14:20:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\test_Scala\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 14:20:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.09.19 14:20:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.09.19 14:20:49 INFO  time: Connected to build server in 45s
+2023.09.19 14:20:49 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.19 14:20:49 INFO  time: Imported build in 0.23s
+2023.09.19 14:20:50 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:20:51 INFO  time: indexed workspace in 1.98s
+2023.09.19 14:20:53 INFO  time: compiled test_Scala_bd2c96d2de in 3.31s
+2023.09.19 14:20:53 INFO  compiling test_scala_bd2c96d2de-test (1 scala source)
+2023.09.19 14:20:53 INFO  time: compiled test_Scala_bd2c96d2de-test in 0.34s
+2023.09.19 14:20:53 INFO  compiling test_scala_bd2c96d2de-test (1 scala source)
+2023.09.19 14:20:54 INFO  time: compiled test_Scala_bd2c96d2de-test in 0.21s
+2023.09.19 14:21:24 WARN  no build target for: C:\Users\amych\test_Scala\testproject\build.sbt
+2023.09.19 14:23:09 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:23:09 INFO  time: compiled test_Scala_bd2c96d2de in 0.62s
+9월 19, 2023 2:23:53 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 104
+2023.09.19 14:23:54 INFO  compiling test_scala_bd2c96d2de-test (1 scala source)
+2023.09.19 14:23:54 INFO  time: compiled test_Scala_bd2c96d2de-test in 0.19s
+2023.09.19 14:25:24 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:25:24 INFO  time: compiled test_Scala_bd2c96d2de in 0.43s
+2023.09.19 14:32:18 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:27: error: unclosed character literal
+  ''
+  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+9월 19, 2023 2:32:28 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 256
+9월 19, 2023 2:32:30 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 270
+2023.09.19 14:33:47 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:33:47 INFO  time: compiled test_Scala_bd2c96d2de in 0.38s
+2023.09.19 14:35:12 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:35:12 INFO  time: compiled test_Scala_bd2c96d2de in 0.34s
+9월 19, 2023 2:35:56 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 536
+9월 19, 2023 2:36:20 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 566
+2023.09.19 14:36:20 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:35: error: Invalid literal number
+    { val t = 0val f : Int=>Int = {
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:856)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:900)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:908)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:365)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.19 14:37:06 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:37:06 INFO  time: compiled test_Scala_bd2c96d2de in 0.41s
+2023.09.19 14:40:42 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:40:42 INFO  time: compiled test_Scala_bd2c96d2de in 0.29s
+2023.09.19 14:41:29 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 14:41:29 INFO  time: compiled test_Scala_bd2c96d2de in 0.42s
+2023.09.19 16:22:57 INFO  Shutting down server
+2023.09.19 16:22:57 INFO  shutting down Metals
+2023.09.19 16:22:57 INFO  Shut down connection with build server.
+2023.09.19 16:22:57 INFO  Exiting server
+2023.09.19 16:23:08 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\amych\test_Scala' for client Visual Studio Code 1.82.2.
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+정보: Flyway Community Edition 9.21.2 by Redgate
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: See release notes here: https://rd.gt/416ObMi
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: 
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.FlywayExecutor execute
+정보: Database: jdbc:h2:file:C:\Users\amych\test_Scala\.metals\metals (H2 2.1)
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.internal.command.DbValidate validate
+정보: Successfully validated 4 migrations (execution time 00:00.012s)
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+정보: Current version of schema "PUBLIC": 4
+9월 19, 2023 4:23:08 오후 org.flywaydb.core.internal.command.DbMigrate logSummary
+정보: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.19 16:23:08 INFO  time: initialize in 0.42s
+2023.09.19 16:23:09 INFO  Attempting to connect to the build server...
+2023.09.19 16:23:09 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.09.19 16:23:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\test_Scala\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 16:23:09 WARN  No build session currently active to reload.
+2023.09.19 16:23:11 INFO  no build target found for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.19 16:23:12 INFO  time: code lens generation in 3.35s
+2023.09.19 16:23:12 INFO  time: Connected to build server in 3.33s
+2023.09.19 16:23:12 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.19 16:23:13 INFO  compiling test_scala_bd2c96d2de-test (1 scala source)
+2023.09.19 16:23:13 INFO  time: compiled test_Scala_bd2c96d2de-test in 0.13s
+2023.09.19 16:23:13 INFO  time: indexed workspace in 0.94s
+2023.09.19 16:23:14 INFO  compiling test_scala_bd2c96d2de-test (1 scala source)
+2023.09.19 16:23:14 INFO  time: compiled test_Scala_bd2c96d2de-test in 36ms
+2023.09.19 16:23:22 INFO  Shutting down server
+2023.09.19 16:23:22 INFO  shutting down Metals
+2023.09.19 16:23:22 INFO  Shut down connection with build server.
+2023.09.19 16:23:22 INFO  BSP server: Sep 19, 2023 4:23:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2023.09.19 16:23:22 INFO  Exiting server
+2023.09.19 16:24:28 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\amych\test_Scala' for client Visual Studio Code 1.82.2.
+9월 19, 2023 4:24:28 오후 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+정보: Flyway Community Edition 9.21.2 by Redgate
+9월 19, 2023 4:24:28 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: See release notes here: https://rd.gt/416ObMi
+9월 19, 2023 4:24:28 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: 
+9월 19, 2023 4:24:29 오후 org.flywaydb.core.FlywayExecutor execute
+정보: Database: jdbc:h2:file:C:\Users\amych\test_Scala\.metals\metals (H2 2.1)
+9월 19, 2023 4:24:29 오후 org.flywaydb.core.internal.command.DbValidate validate
+정보: Successfully validated 4 migrations (execution time 00:00.015s)
+9월 19, 2023 4:24:29 오후 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+정보: Current version of schema "PUBLIC": 4
+9월 19, 2023 4:24:29 오후 org.flywaydb.core.internal.command.DbMigrate logSummary
+정보: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.19 16:24:29 INFO  time: initialize in 0.43s
+2023.09.19 16:24:30 INFO  Attempting to connect to the build server...
+2023.09.19 16:24:30 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.09.19 16:24:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\test_Scala\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 16:24:30 WARN  No build session currently active to reload.
+2023.09.19 16:24:32 INFO  no build target found for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+9월 19, 2023 4:24:32 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1
+2023.09.19 16:24:33 INFO  time: Connected to build server in 3.19s
+2023.09.19 16:24:33 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.19 16:24:34 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 16:24:34 INFO  time: code lens generation in 1.61s
+2023.09.19 16:24:34 INFO  no build target found for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.19 16:24:34 INFO  time: compiled test_Scala_bd2c96d2de in 0.79s
+2023.09.19 16:24:34 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 16:24:34 INFO  time: compiled test_Scala_bd2c96d2de in 8ms
+2023.09.19 16:24:35 INFO  time: code lens generation in 2.12s
+2023.09.19 16:24:35 INFO  time: code lens generation in 2.58s
+2023.09.19 16:24:35 INFO  time: code lens generation in 2.59s
+2023.09.19 16:24:35 INFO  time: indexed workspace in 1.48s
+2023.09.19 16:24:35 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 16:24:35 INFO  time: compiled test_Scala_bd2c96d2de in 0.11s
+2023.09.19 16:24:35 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 16:24:35 INFO  time: compiled test_Scala_bd2c96d2de in 0.11s
+2023.09.19 16:25:59 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed comment
+  /*println({ val t = 0
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipBlockComment(LegacyScanner.scala:59)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:73)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.19 16:26:07 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed comment
+  /*println({ val t = 0
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipBlockComment(LegacyScanner.scala:59)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:73)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.19 16:26:07 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\test_Scala\testproject\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed comment
+  /*println({ val t = 0
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipBlockComment(LegacyScanner.scala:59)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:73)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.19 16:26:10 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 16:26:10 INFO  time: compiled test_Scala_bd2c96d2de in 0.35s
+2023.09.19 16:26:56 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.09.19 16:26:56 INFO  time: compiled test_Scala_bd2c96d2de in 0.2s
+2023.09.19 16:27:43 INFO  Shutting down server
+2023.09.19 16:27:43 INFO  shutting down Metals
+2023.09.19 16:27:43 INFO  Shut down connection with build server.
+2023.09.19 16:27:43 INFO  Exiting server
