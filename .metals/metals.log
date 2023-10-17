@@ -484,3 +484,325 @@ scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed comment
 2023.10.15 12:29:54 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\test\scala\MySuite.scala
 2023.10.15 12:30:57 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
 2023.10.15 12:30:59 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.15 14:43:37 INFO  Shutting down server
+2023.10.15 14:43:37 INFO  shutting down Metals
+2023.10.15 14:43:37 INFO  Shut down connection with build server.
+2023.10.15 14:43:37 INFO  Exiting server
+2023.10.17 14:13:02 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.83.1.
+10월 17, 2023 2:13:02 오후 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+정보: Flyway Community Edition 9.21.2 by Redgate
+10월 17, 2023 2:13:02 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: See release notes here: https://rd.gt/416ObMi
+10월 17, 2023 2:13:02 오후 org.flywaydb.core.internal.license.VersionPrinter printVersion
+정보: 
+10월 17, 2023 2:13:03 오후 org.flywaydb.core.FlywayExecutor execute
+정보: Database: jdbc:h2:file:C:\Users\amych\github_SNU\2023-2\pp202302\.metals\metals (H2 2.1)
+10월 17, 2023 2:13:03 오후 org.flywaydb.core.internal.command.DbValidate validate
+정보: Successfully validated 4 migrations (execution time 00:00.022s)
+10월 17, 2023 2:13:03 오후 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+정보: Current version of schema "PUBLIC": 4
+10월 17, 2023 2:13:03 오후 org.flywaydb.core.internal.command.DbMigrate logSummary
+정보: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.17 14:13:03 INFO  time: initialize in 0.7s
+2023.10.17 14:13:05 INFO  Attempting to connect to the build server...
+2023.10.17 14:13:05 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\test_Scala\.scala-build\ide-options-v2.json, C:\Users\amych\test_Scala)
+2023.10.17 14:13:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.17 14:13:05 WARN  No build session currently active to reload.
+2023.10.17 14:13:07 INFO  BSP server: Starting compilation server
+2023.10.17 14:13:09 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\test\scala\MySuite.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.17 14:13:12 INFO  time: code lens generation in 6.32s
+2023.10.17 14:13:12 INFO  time: code lens generation in 2.25s
+2023.10.17 14:13:12 INFO  time: code lens generation in 2.26s
+2023.10.17 14:13:12 INFO  time: code lens generation in 1.59s
+2023.10.17 14:13:12 INFO  time: code lens generation in 2.24s
+2023.10.17 14:13:12 INFO  time: code lens generation in 1.05s
+2023.10.17 14:13:12 INFO  time: code lens generation in 2.27s
+2023.10.17 14:13:17 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.17 14:13:17 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.17 14:13:17 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.17 14:13:17 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.17 14:13:17 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.17 14:13:17 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.17 14:13:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.17 14:13:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.17 14:13:18 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.17 14:13:18 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.17 14:13:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.17 14:13:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.17 14:13:18 INFO  time: Connected to build server in 13s
+2023.10.17 14:13:18 INFO  Connected to Build server: scala-cli v1.0.4
+2023.10.17 14:13:19 INFO  time: Imported build in 0.12s
+2023.10.17 14:13:20 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.10.17 14:13:20 INFO  time: indexed workspace in 1.61s
+2023.10.17 14:13:22 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+10월 17, 2023 2:13:22 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 42
+10월 17, 2023 2:13:22 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 45
+2023.10.17 14:13:23 INFO  time: compiled test_Scala_bd2c96d2de in 3.61s
+2023.10.17 14:13:23 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:13:23 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\test\scala\MySuite.scala
+2023.10.17 14:13:23 INFO  compiling test_scala_bd2c96d2de (1 scala source)
+2023.10.17 14:13:24 INFO  time: compiled test_Scala_bd2c96d2de in 0.96s
+2023.10.17 14:13:57 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:13:57 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\test\scala\MySuite.scala
+2023.10.17 14:20:32 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed comment
+/*2023-10-17
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipBlockComment(LegacyScanner.scala:59)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:73)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.17 14:20:32 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed comment
+/****************2023-10-17
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:58)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:72)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.17 14:20:33 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed comment
+/**************************2023-10-17
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:58)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:72)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.17 14:20:36 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed comment
+/**************************2023-10-17**************************
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:53)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:58)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:72)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:81)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:346)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+10월 17, 2023 2:23:50 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 860
+10월 17, 2023 2:26:48 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1077
+2023.10.17 14:26:49 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:27:04 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+10월 17, 2023 2:28:07 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1143
+2023.10.17 14:28:16 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:29:23 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: unclosed quoted identifier
+  println`(test(new foo_type(10,20)))
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:522)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:370)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.17 14:29:28 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:29:54 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:30:13 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:30:39 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+10월 17, 2023 2:31:25 오후 scala.meta.internal.pc.CompilerAccess handleError
+심각: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-10-17\r_compiler-error_14-31-25-045
+10월 17, 2023 2:31:25 오후 scala.meta.internal.pc.CompilerAccess handleError
+심각: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-10-17\r_compiler-error_14-31-25-421
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.10.17 14:32:08 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:32:54 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+10월 17, 2023 2:33:55 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1661
+2023.10.17 14:36:40 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:39:18 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:39:26 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:40:57 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:40:59 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+Exception in thread "pool-5-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.10.17 14:41:16 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 14:43:32 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+10월 17, 2023 2:43:40 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 2766
+2023.10.17 14:44:45 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+Exception in thread "pool-5-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.10.17 14:45:07 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+10월 17, 2023 2:46:04 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3109
+10월 17, 2023 2:46:05 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3113
+10월 17, 2023 2:48:14 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3487
+10월 17, 2023 2:48:16 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3495
+10월 17, 2023 2:49:59 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3724
+10월 17, 2023 2:50:01 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3730
+10월 17, 2023 2:50:57 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 3822
+10월 17, 2023 3:05:24 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 4637
+2023.10.17 15:16:04 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 15:23:50 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main.scala
+2023.10.17 15:23:54 INFO  Shutting down server
+2023.10.17 15:23:54 INFO  shutting down Metals
+2023.10.17 15:23:54 INFO  Shut down connection with build server.
+2023.10.17 15:23:54 INFO  Exiting server
