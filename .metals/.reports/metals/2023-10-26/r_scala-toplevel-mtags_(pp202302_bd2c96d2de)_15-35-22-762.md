@@ -1,4 +1,4 @@
-
+id: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala:[6501..6506) in Input.VirtualFile("file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala", "
 // // @main def hello: Unit =
 // //   println("Hello world!")
 // //   println(msg)
@@ -232,4 +232,11 @@ class ListIterDict[K,V]
 (eq: (K,K)=> Boolean, lsit: List )
 extends ListIter[(K,V)](list) with Dict[K, V]{
 
-}
+}")
+file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala:231: error: expected identifier; obtained class
+class ListIterDict[K,V]
+^
+#### Short summary: 
+
+expected identifier; obtained class

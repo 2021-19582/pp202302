@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pp2023-scala_3-0.1.0-SNAPSHOT5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pp2023-scala/target/scala-3.3.1/pp2023-scala_3-0.1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
