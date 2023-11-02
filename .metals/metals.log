@@ -1922,3 +1922,449 @@ scala.meta.tokenizers.TokenizeException: <input>:189: error: Non-zero integral v
 2023.10.26 15:35:25 INFO  BSP server:   "jsonrpc": "2.0",
 2023.10.26 15:35:25 INFO  BSP server:   "method": "build/exit",
 2023.10.26 15:35:25 INFO  Exiting server
+2023.10.28 18:24:16 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.83.1.
+2023.10.28 18:24:17 WARN  No build session currently active to reload.
+2023.10.28 18:24:17 INFO  Attempting to connect to the build server...
+2023.10.28 18:24:17 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.10.28 18:24:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.28 18:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.28 18:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.28 18:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.28 18:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.28 18:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.28 18:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.28 18:24:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.28 18:24:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.28 18:24:25 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.28 18:24:25 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.28 18:24:25 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.28 18:24:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.28 18:24:26 INFO  time: Connected to build server in 8.73s
+2023.10.28 18:24:26 INFO  Connected to Build server: scala-cli v1.0.4
+2023.10.28 18:24:27 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.10.28 18:24:27 INFO  time: compiled pp202302_bd2c96d2de in 0.68s
+2023.10.28 18:24:27 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.10.28 18:24:28 INFO  time: compiled pp202302_bd2c96d2de in 0.36s
+2023.10.28 18:24:30 INFO  time: indexed workspace in 4.33s
+2023.10.28 21:33:20 INFO  Shutting down server
+2023.10.28 21:33:20 INFO  shutting down Metals
+2023.10.28 21:33:20 INFO  Shut down connection with build server.
+2023.10.28 21:33:20 INFO  Exiting server
+2023.10.31 22:07:12 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.83.1.
+2023.10.31 22:07:13 WARN  No build session currently active to reload.
+2023.10.31 22:07:13 INFO  Attempting to connect to the build server...
+2023.10.31 22:07:13 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.10.31 22:07:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.31 22:07:17 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main2.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.31 22:07:18 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main3.scala
+2023.10.31 22:07:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.31 22:07:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.31 22:07:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.31 22:07:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.31 22:07:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.31 22:07:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.31 22:07:19 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.31 22:07:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.31 22:07:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.31 22:07:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.31 22:07:19 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.31 22:07:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.31 22:07:20 INFO  time: Connected to build server in 6.84s
+2023.10.31 22:07:20 INFO  Connected to Build server: scala-cli v1.0.4
+2023.10.31 22:07:20 INFO  time: Imported build in 0.19s
+2023.10.31 22:07:21 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:07:21 INFO  time: compiled pp202302_bd2c96d2de in 0.68s
+2023.10.31 22:07:21 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:07:22 INFO  time: indexed workspace in 1.43s
+2023.10.31 22:07:23 INFO  time: compiled pp202302_bd2c96d2de in 1.46s
+2023.10.31 22:07:23 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:07:23 INFO  time: compiled pp202302_bd2c96d2de in 68ms
+2023.10.31 22:07:23 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:07:23 INFO  time: compiled pp202302_bd2c96d2de in 0.4s
+2023.10.31 22:07:24 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:07:24 INFO  time: compiled pp202302_bd2c96d2de in 0.46s
+2023.10.31 22:08:46 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:08:46 INFO  time: compiled pp202302_bd2c96d2de in 0.23s
+2023.10.31 22:08:57 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:08:57 INFO  time: compiled pp202302_bd2c96d2de in 0.24s
+10월 31, 2023 10:09:02 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 311
+2023.10.31 22:10:59 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:10:59 INFO  time: compiled pp202302_bd2c96d2de in 0.28s
+2023.10.31 22:10:59 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:10:59 INFO  time: compiled pp202302_bd2c96d2de in 0.24s
+2023.10.31 22:11:06 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:11:06 INFO  time: compiled pp202302_bd2c96d2de in 0.21s
+2023.10.31 22:11:19 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:11:19 INFO  time: compiled pp202302_bd2c96d2de in 0.17s
+2023.10.31 22:11:34 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:11:34 INFO  time: compiled pp202302_bd2c96d2de in 0.19s
+10월 31, 2023 10:11:49 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 689
+2023.10.31 22:12:02 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.10.31 22:12:11 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:12:11 INFO  time: compiled pp202302_bd2c96d2de in 0.22s
+2023.10.31 22:12:16 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.10.31 22:12:17 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:12:17 INFO  time: compiled pp202302_bd2c96d2de in 0.13s
+2023.10.31 22:12:17 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.10.31 22:12:17 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:12:18 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.10.31 22:12:18 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.10.31 22:12:37 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:12:37 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.10.31 22:12:46 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:12:46 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.10.31 22:13:09 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:13:09 INFO  time: compiled pp202302_bd2c96d2de in 0.27s
+2023.10.31 22:13:18 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:13:18 INFO  time: compiled pp202302_bd2c96d2de in 0.18s
+2023.10.31 22:13:26 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:13:26 INFO  time: compiled pp202302_bd2c96d2de in 0.23s
+2023.10.31 22:13:45 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:13:45 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.10.31 22:13:45 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:13:45 INFO  time: compiled pp202302_bd2c96d2de in 0.13s
+2023.10.31 22:14:12 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:14:12 INFO  time: compiled pp202302_bd2c96d2de in 0.49s
+2023.10.31 22:14:16 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:14:16 INFO  time: compiled pp202302_bd2c96d2de in 0.16s
+10월 31, 2023 10:14:40 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1172
+2023.10.31 22:15:27 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:15:27 INFO  time: compiled pp202302_bd2c96d2de in 0.2s
+2023.10.31 22:15:33 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.10.31 22:15:37 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:15:37 INFO  time: compiled pp202302_bd2c96d2de in 0.16s
+2023.10.31 22:15:47 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:15:47 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.10.31 22:15:51 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:15:51 INFO  time: compiled pp202302_bd2c96d2de in 0.18s
+2023.10.31 22:17:31 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.10.31 22:17:31 INFO  time: compiled pp202302_bd2c96d2de in 0.2s
+2023.10.31 22:18:47 INFO  Shutting down server
+2023.10.31 22:18:47 INFO  shutting down Metals
+2023.10.31 22:18:47 INFO  Shut down connection with build server.
+2023.10.31 22:18:47 INFO  Exiting server
+2023.11.02 14:03:25 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.83.1.
+2023.11.02 14:03:26 WARN  No build session currently active to reload.
+2023.11.02 14:03:26 INFO  Attempting to connect to the build server...
+2023.11.02 14:03:26 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.02 14:03:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.02 14:03:29 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\Main3.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.02 14:03:32 INFO  time: Connected to build server in 5.12s
+2023.11.02 14:03:32 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.02 14:03:32 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:03:32 INFO  time: compiled pp202302_bd2c96d2de in 0.63s
+2023.11.02 14:03:32 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:03:32 INFO  time: compiled pp202302_bd2c96d2de in 0.23s
+2023.11.02 14:03:33 INFO  time: indexed workspace in 1.48s
+2023.11.02 14:03:34 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:03:34 INFO  time: compiled pp202302_bd2c96d2de in 0.7s
+2023.11.02 14:03:35 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:03:35 INFO  time: compiled pp202302_bd2c96d2de in 0.2s
+2023.11.02 14:05:22 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:22 INFO  time: compiled pp202302_bd2c96d2de in 0.28s
+2023.11.02 14:05:22 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:23 INFO  time: compiled pp202302_bd2c96d2de in 0.38s
+2023.11.02 14:05:23 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:23 INFO  time: compiled pp202302_bd2c96d2de in 0.25s
+2023.11.02 14:05:25 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:25 INFO  time: compiled pp202302_bd2c96d2de in 0.26s
+2023.11.02 14:05:25 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:26 INFO  time: compiled pp202302_bd2c96d2de in 0.29s
+2023.11.02 14:05:27 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.11.02 14:05:27 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:27 INFO  time: compiled pp202302_bd2c96d2de in 0.26s
+2023.11.02 14:05:28 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.11.02 14:05:30 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:30 INFO  time: compiled pp202302_bd2c96d2de in 0.25s
+2023.11.02 14:05:31 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:31 INFO  time: compiled pp202302_bd2c96d2de in 0.25s
+2023.11.02 14:05:36 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+2023.11.02 14:05:37 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.02 14:05:38 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.11.02 14:05:39 INFO  time: compiled pp202302_bd2c96d2de in 1.64s
+2023.11.02 14:05:39 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+11월 02, 2023 2:06:04 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 103
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.11.02 14:06:10 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:06:10 INFO  time: compiled pp202302_bd2c96d2de in 0.74s
+2023.11.02 14:07:16 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231102.scala
+2023.11.02 14:07:16 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:07:16 INFO  Disconnecting from scala-cli session...
+2023.11.02 14:07:16 INFO  Shut down connection with build server.
+2023.11.02 14:07:16 INFO  Attempting to connect to the build server...
+2023.11.02 14:07:16 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.02 14:07:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.02 14:07:16 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:07:22 INFO  time: Connected to build server in 5.51s
+2023.11.02 14:07:22 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.02 14:07:23 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:07:23 INFO  time: compiled pp202302_bd2c96d2de in 0.11s
+2023.11.02 14:07:23 INFO  compiling pp202302_bd2c96d2de-test (1 scala source)
+2023.11.02 14:07:23 INFO  time: compiled pp202302_bd2c96d2de-test in 0.15s
+2023.11.02 14:07:23 INFO  time: indexed workspace in 1.34s
+2023.11.02 14:07:25 INFO  compiling pp202302_bd2c96d2de-test (1 scala source)
+2023.11.02 14:07:25 INFO  time: compiled pp202302_bd2c96d2de-test in 31ms
+2023.11.02 14:07:25 INFO  Refreshed build after change
+11월 02, 2023 2:08:00 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 236
+2023.11.02 14:08:20 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:08:20 INFO  time: compiled pp202302_bd2c96d2de in 0.2s
+2023.11.02 14:10:47 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:10:47 INFO  time: compiled pp202302_bd2c96d2de in 0.4s
+2023.11.02 14:11:12 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:11:12 INFO  time: compiled pp202302_bd2c96d2de in 0.3s
+2023.11.02 14:11:34 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:11:34 INFO  time: compiled pp202302_bd2c96d2de in 0.65s
+2023.11.02 14:12:11 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:12:11 INFO  time: compiled pp202302_bd2c96d2de in 0.12s
+2023.11.02 14:16:03 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:16:05 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:16:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.02 14:16:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.02 14:16:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.02 14:16:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.02 14:16:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.02 14:16:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.02 14:16:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.02 14:16:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.02 14:16:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.02 14:16:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.02 14:16:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.02 14:16:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.02 14:16:24 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:16:24 INFO  time: compiled pp202302_bd2c96d2de in 0.36s
+2023.11.02 14:16:44 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.02 14:16:44 INFO  time: compiled pp202302_bd2c96d2de in 0.17s
+2023.11.02 14:17:20 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.02 14:17:20 INFO  time: compiled pp202302_bd2c96d2de in 0.13s
+2023.11.02 14:18:05 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main3.scala
+11월 02, 2023 2:18:11 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 981
+2023.11.02 14:18:12 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.02 14:18:12 INFO  time: compiled pp202302_bd2c96d2de in 0.18s
+2023.11.02 14:18:22 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.02 14:18:22 INFO  time: compiled pp202302_bd2c96d2de in 0.12s
+2023.11.02 14:18:23 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main3.scala
+2023.11.02 14:18:24 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.02 14:18:24 INFO  time: compiled pp202302_bd2c96d2de in 0.44s
+2023.11.02 14:18:24 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main3.scala
+2023.11.02 14:21:43 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:44 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:45 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:45 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:46 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:46 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:47 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:48 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:50 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:50 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:51 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:52 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:53 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:21:53 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:22:01 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:22:03 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:22:07 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:22:13 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:23:26 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:23:26 INFO  time: compiled pp202302_bd2c96d2de in 0.21s
+2023.11.02 14:23:30 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:23:30 INFO  time: compiled pp202302_bd2c96d2de in 0.13s
+2023.11.02 14:23:42 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:23:42 INFO  time: compiled pp202302_bd2c96d2de in 0.47s
+2023.11.02 14:24:01 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:24:01 INFO  time: compiled pp202302_bd2c96d2de in 0.48s
+2023.11.02 14:37:08 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:10 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:10 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:10 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:12 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:12 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:14 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:15 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:17 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:17 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:19 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:20 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:21 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:22 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:22 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+11월 02, 2023 2:37:23 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1548
+2023.11.02 14:37:23 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:24 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:24 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:26 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:27 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:31 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:34 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:37 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:37 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:38 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:38 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:39 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:54 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:55 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:55 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:37:59 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:00 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:00 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:01 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:01 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:02 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:02 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:03 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:04 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:05 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:05 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231102.scala
+2023.11.02 14:38:45 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:38:45 INFO  time: compiled pp202302_bd2c96d2de in 0.34s
+2023.11.02 14:39:16 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:39:16 INFO  time: compiled pp202302_bd2c96d2de in 0.27s
+11월 02, 2023 2:39:30 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1797
+11월 02, 2023 2:39:37 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1816
+11월 02, 2023 2:42:58 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 2207
+2023.11.02 14:43:13 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:43:13 INFO  time: compiled pp202302_bd2c96d2de in 0.19s
+2023.11.02 14:43:16 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:43:16 INFO  time: compiled pp202302_bd2c96d2de in 0.12s
+2023.11.02 14:43:18 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:43:18 INFO  time: compiled pp202302_bd2c96d2de in 0.12s
+2023.11.02 14:43:18 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:43:18 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.11.02 14:43:18 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:43:19 INFO  time: compiled pp202302_bd2c96d2de in 0.13s
+2023.11.02 14:43:55 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:43:55 INFO  time: compiled pp202302_bd2c96d2de in 0.3s
+2023.11.02 14:45:19 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:45:19 INFO  time: compiled pp202302_bd2c96d2de in 0.27s
+11월 02, 2023 2:46:14 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 2493
+11월 02, 2023 2:46:24 오후 scala.meta.internal.pc.CompilerAccess handleError
+심각: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-02\r_compiler-error_(pp202302_bd2c96d2de)_14-46-24-798.md
+2023.11.02 14:46:30 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:46:30 INFO  time: compiled pp202302_bd2c96d2de in 0.12s
+2023.11.02 14:46:30 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:46:30 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.11.02 14:46:31 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:46:31 INFO  time: compiled pp202302_bd2c96d2de in 97ms
+2023.11.02 14:48:05 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:48:05 INFO  time: compiled pp202302_bd2c96d2de in 0.16s
+2023.11.02 14:48:33 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 14:48:33 INFO  time: compiled pp202302_bd2c96d2de in 0.35s
+2023.11.02 15:02:22 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.11.02 15:02:23 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main2.scala
+2023.11.02 15:02:24 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+2023.11.02 15:02:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+11월 02, 2023 3:04:00 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 2775
+2023.11.02 15:04:26 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 15:04:26 INFO  time: compiled pp202302_bd2c96d2de in 0.11s
+2023.11.02 15:04:43 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231102.scala
+scala.meta.tokenizers.TokenizeException: <input>:93: error: Invalid literal number
+{ 4def this() = this(Nil)
+  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.getFraction(LegacyScanner.scala:814)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:851)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.11.02 15:04:44 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231102.scala
+scala.meta.tokenizers.TokenizeException: <input>:93: error: Invalid literal number
+{ 4def this() = this(Nil)
+  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.getFraction(LegacyScanner.scala:814)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:851)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+11월 02, 2023 3:06:16 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 2978
+2023.11.02 15:06:19 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 15:06:19 INFO  time: compiled pp202302_bd2c96d2de in 0.45s
+2023.11.02 15:06:39 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 15:06:39 INFO  time: compiled pp202302_bd2c96d2de in 0.32s
+2023.11.02 15:06:52 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.02 15:06:52 INFO  time: compiled pp202302_bd2c96d2de in 0.3s
+2023.11.02 15:35:44 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+Exception in thread "pool-9-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.11.02 15:35:44 INFO  time: compiled pp202302_bd2c96d2de in 0.19s
+2023.11.02 15:35:47 INFO  Shutting down server
+2023.11.02 15:35:47 INFO  shutting down Metals
+2023.11.02 15:35:47 INFO  Shut down connection with build server.
+2023.11.02 15:35:47 INFO  Exiting server
