@@ -1,0 +1,6 @@
+#FileLock
+#Tue Nov 07 14:06:41 KST 2023
+server=localhost\:50300
+hostName=localhost
+method=file
+id=18ba82cf91d5375acfb3d81792664aed2f4940f658c
