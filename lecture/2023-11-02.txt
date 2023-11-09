@@ -1,0 +1,16 @@
+type class defines operators by type-
+OOP is object oriented, and defines operators relative to the object
+
+OOP is data + ftn
+type class defines only ftns wrt given type
+	(data is managed in pure data type)
+// static methods in OOP is somewhat in between OOP and type class
+
+for instance addition of a type A
+
+oop:
+	A a, b
+	a.add(b)
+typeclass: 
+	A a, b
+	add(a, b)

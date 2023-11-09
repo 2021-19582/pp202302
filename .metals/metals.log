@@ -2368,3 +2368,1615 @@ Exception in thread "pool-9-thread-1" java.lang.InterruptedException
 2023.11.02 15:35:47 INFO  shutting down Metals
 2023.11.02 15:35:47 INFO  Shut down connection with build server.
 2023.11.02 15:35:47 INFO  Exiting server
+2023.11.07 14:06:40 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.0.
+2023.11.07 14:06:42 WARN  No build session currently active to reload.
+2023.11.07 14:06:42 INFO  Attempting to connect to the build server...
+2023.11.07 14:06:42 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.07 14:06:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.07 14:06:46 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231102.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.07 14:06:48 INFO  time: Connected to build server in 6.71s
+2023.11.07 14:06:48 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.07 14:06:49 INFO  compiling pp202302_bd2c96d2de-test (1 scala source)
+2023.11.07 14:06:49 INFO  time: compiled pp202302_bd2c96d2de-test in 0.41s
+2023.11.07 14:06:50 INFO  time: indexed workspace in 1.91s
+2023.11.07 14:06:52 INFO  compiling pp202302_bd2c96d2de-test (1 scala source)
+2023.11.07 14:06:52 INFO  time: compiled pp202302_bd2c96d2de-test in 24ms
+2023.11.07 14:22:44 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231107.scala
+2023.11.07 14:22:44 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 14:22:44 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 14:22:45 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.07 14:22:45 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.07 14:22:45 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.07 14:22:45 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.07 14:22:45 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.07 14:22:45 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.07 14:22:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.07 14:22:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.07 14:22:46 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.07 14:22:46 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.07 14:22:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.07 14:22:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.07 14:22:47 INFO  Disconnecting from scala-cli session...
+2023.11.07 14:22:47 INFO  Shut down connection with build server.
+2023.11.07 14:22:46 INFO  BSP server: Nov 07, 2023 2:22:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2023.11.07 14:22:46 INFO  BSP server: WARNING: Notification threw an exception: {
+2023.11.07 14:22:47 INFO  Attempting to connect to the build server...
+2023.11.07 14:22:47 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.07 14:22:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.07 14:22:52 INFO  time: Connected to build server in 4.99s
+2023.11.07 14:22:52 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.07 14:22:52 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 14:22:52 INFO  time: compiled pp202302_bd2c96d2de in 90ms
+2023.11.07 14:22:52 INFO  compiling pp202302_bd2c96d2de-test (1 scala source)
+2023.11.07 14:22:52 INFO  time: compiled pp202302_bd2c96d2de-test in 89ms
+2023.11.07 14:22:53 INFO  time: indexed workspace in 1.37s
+2023.11.07 14:22:57 INFO  compiling pp202302_bd2c96d2de-test (1 scala source)
+2023.11.07 14:22:57 INFO  time: compiled pp202302_bd2c96d2de-test in 77ms
+2023.11.07 14:22:57 INFO  Refreshed build after change
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {}
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:22:57 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-22-57-936.md
+2023.11.07 14:22:57 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {}
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:22:58 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-22-58-511.md
+2023.11.07 14:22:58 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {}
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:03 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-03-465.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {}
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:04 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-04-315.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {}
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:10 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-10-516.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {}
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:10 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-10-673.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) {}
+  }
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:12 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-12-539.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) {}
+  }
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:12 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-12-579.md
+2023.11.07 14:23:12 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) {}
+  }
+  def getValue: Option[A]
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:13 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-13-003.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) {}
+    def getValue: Option[A]
+  }
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:19 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-19-480.md
+2023.11.07 14:23:19 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) def getValue: Option[A]
+  }
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:20 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-20-621.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) def getValue: Option[A]
+  }
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:20 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-20-789.md
+2023.11.07 14:23:20 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I) def getValue: Option[A]
+  }
+  def getNext: I
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:21 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-21-199.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:22 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-22-019.md
+2023.11.07 14:23:22 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:23 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-23-747.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:23 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-23-921.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {}
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:24 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-24-897.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:25 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-25-596.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:25 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-25-679.md
+2023.11.07 14:23:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:30 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-30-274.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:30 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-30-635.md
+2023.11.07 14:23:30 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:31 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-31-789.md
+2023.11.07 14:23:31 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:32 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-32-534.md
+2023.11.07 14:23:32 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+  }
+  given def iterIF: Iter[Itr, A]
+  extension (i: I) {}
+  def iter: Itr
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:33 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-33-655.md
+2023.11.07 14:23:33 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:40 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-40-001.md
+2023.11.07 14:23:40 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:40 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-40-086.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:40 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-40-657.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:41 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-41-771.md
+2023.11.07 14:23:41 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:41 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-41-904.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:43 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-43-118.md
+2023.11.07 14:23:43 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def <error> = null
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:46 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-46-201.md
+2023.11.07 14:23:46 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:46 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-46-673.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) {}
+    def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:46 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-46-784.md
+2023.11.07 14:23:46 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:47 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-47-471.md
+2023.11.07 14:23:47 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:49 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-49-105.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:49 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-49-774.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:50 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-50-578.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:50 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-50-842.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    type Itr = I
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:23:59 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-23-59-973.md
+2023.11.07 14:23:59 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (i: I) {}
+  def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (val i: I) {}
+  def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    type Itr = I
+    def ItrI = iterI
+    extension (val i: I) {}
+    def iter = null
+  }
+}
+11¿ù 07, 2023 2:24:00 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-24-00-446.md
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (i: I) def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (val i: I) def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    type Itr = I
+    def ItrI = iterI
+    extension (val i: I) def iter = null
+  }
+}
+11¿ù 07, 2023 2:24:02 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-24-02-777.md
+2023.11.07 14:24:02 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 14:24:04 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 14:24:04 INFO  exception occurred while parser C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231107.scala
+2023.11.07 14:24:04 INFO  exception occurred while compiling C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231107.scala
+2023.11.07 14:24:04 INFO  time: compiled pp202302_bd2c96d2de in 0.1s
+2023.11.07 14:24:04 ERROR Build server error: Unexpected error when compiling pp202302_bd2c96d2de: 'assertion failed: position error, parent span does not contain child span
+parent      = [[35mI[0m, [35mA[0m]([33musing [0m[33mprotected[0m [33mgiven[0m [33mval[0m [36miterI[0m: [35mIter[0m[[35mI[0m, [35mA[0m])[33m extends[0m [35mIterable[0m[[35mI[0m, [35mA[0m] {
+  [33mtype[0m [35mItr[0m = [35mI[0m
+  [33mdef[0m [36mItrI[0m = iterI
+  [33mextension [0m([36mi[0m: [35mI[0m) [33mdef[0m [36miter[0m = [31mnull[0m
+} # -1,
+parent span = <276..403>,
+child       = [33mextension [0m([36mi[0m: [35mI[0m) [33mdef[0m [36miter[0m = [31mnull[0m # -1,
+child span  = [370..404]'
+error while checking [I, A](using protected given val iterI: Iter[I, A]) extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (i: I) def iter = null
+}
+error while checking given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+   extends Iterable[I, A] {
+  type Itr = I
+  def ItrI = iterI
+  extension (val i: I) def iter = null
+}
+error while checking package <empty> {
+  trait Iter[I, A] {
+    extension (val i: I)
+      {
+        def getValue: Option[A]
+        def getNext: I
+      }
+  }
+  trait Iterable[I, A] {
+    type Itr
+    given def iterIF: Iter[Itr, A]
+    extension (val i: I) def iter: Itr
+  }
+  given class iter2iterable[I, A](using protected given val iterI: Iter[I, A])
+     extends Iterable[I, A] {
+    type Itr = I
+    def ItrI = iterI
+    extension (val i: I) def iter = null
+  }
+}
+11¿ù 07, 2023 2:24:05 ¿ÀÈÄ scala.meta.internal.pc.CompilerAccess handleError
+½É°¢: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\amych\github_SNU\2023-2\pp202302\.metals\.reports\metals-full\2023-11-07\r_compiler-error_(pp202302_bd2c96d2de)_14-24-04-993.md
+2023.11.07 14:24:05 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 14:24:09 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 14:24:09 INFO  time: compiled pp202302_bd2c96d2de in 0.17s
+11¿ù 07, 2023 2:25:13 ¿ÀÈÄ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+°æ°í: Unmatched cancel notification for request id 334
+2023.11.07 14:25:15 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 14:25:15 INFO  time: compiled pp202302_bd2c96d2de in 0.17s
+11¿ù 07, 2023 2:51:13 ¿ÀÈÄ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+°æ°í: Unmatched cancel notification for request id 565
+2023.11.07 14:51:16 ERROR Failed to tokenize input for semantic tokens for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231107.scala
+scala.meta.tokenizers.TokenizeException: <input>:68: error: unclosed quoted identifier
+`case Node(v, lt, rt) => v :: lt.iter ::: rt.iter
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.11.07 14:59:17 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 14:59:20 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 14:59:35 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231107.scala
+2023.11.07 15:11:49 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 15:11:49 INFO  time: compiled pp202302_bd2c96d2de in 0.45s
+11¿ù 07, 2023 3:12:54 ¿ÀÈÄ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+°æ°í: Unmatched cancel notification for request id 1175
+2023.11.07 16:45:10 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 16:45:10 INFO  time: compiled pp202302_bd2c96d2de in 0.31s
+2023.11.07 16:45:10 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 16:45:10 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.11.07 18:01:02 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.07 18:01:02 INFO  time: compiled pp202302_bd2c96d2de in 0.19s
+2023.11.07 18:01:02 INFO  Shutting down server
+2023.11.07 18:01:02 INFO  shutting down Metals
+2023.11.07 18:01:02 INFO  Shut down connection with build server.
+2023.11.07 18:01:02 INFO  Exiting server
+2023.11.08 10:46:04 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.1.
+2023.11.08 10:46:06 WARN  No build session currently active to reload.
+2023.11.08 10:46:06 INFO  Attempting to connect to the build server...
+2023.11.08 10:46:06 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.08 10:46:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.08 10:46:10 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231102.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.08 10:46:12 INFO  time: Connected to build server in 6.13s
+2023.11.08 10:46:12 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.08 10:46:12 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.08 10:46:12 INFO  time: compiled pp202302_bd2c96d2de in 0.32s
+2023.11.08 10:46:12 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.08 10:46:12 INFO  time: compiled pp202302_bd2c96d2de in 0.17s
+2023.11.08 10:46:14 INFO  time: indexed workspace in 2.2s
+2023.11.08 10:46:14 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.08 10:46:16 INFO  time: compiled pp202302_bd2c96d2de in 1.51s
+2023.11.08 10:46:16 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.08 10:46:16 INFO  time: compiled pp202302_bd2c96d2de in 0.2s
+2023.11.08 10:56:37 INFO  Shutting down server
+2023.11.08 10:56:37 INFO  shutting down Metals
+2023.11.08 10:56:37 INFO  Shut down connection with build server.
+2023.11.08 10:56:37 INFO  BSP server: Nov 08, 2023 10:56:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2023.11.08 10:56:37 INFO  Exiting server
+2023.11.09 14:07:28 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.1.
+2023.11.09 14:07:29 WARN  No build session currently active to reload.
+2023.11.09 14:07:29 INFO  Attempting to connect to the build server...
+2023.11.09 14:07:29 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.09 14:07:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.09 14:07:34 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231102.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.09 14:07:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.09 14:07:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.09 14:07:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.09 14:07:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.09 14:07:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.09 14:07:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.09 14:07:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.09 14:07:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.09 14:07:38 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.09 14:07:38 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.09 14:07:38 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.09 14:07:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.09 14:07:39 INFO  time: Connected to build server in 10s
+2023.11.09 14:07:39 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.09 14:07:40 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.09 14:07:40 INFO  time: compiled pp202302_bd2c96d2de in 0.37s
+2023.11.09 14:07:40 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.09 14:07:40 INFO  time: compiled pp202302_bd2c96d2de in 0.18s
+2023.11.09 14:07:42 INFO  time: indexed workspace in 2.06s
+2023.11.09 14:07:42 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.09 14:07:43 INFO  time: compiled pp202302_bd2c96d2de in 1.31s
+2023.11.09 14:07:43 INFO  compiling pp202302_bd2c96d2de (1 scala source)
+2023.11.09 14:07:43 INFO  time: compiled pp202302_bd2c96d2de in 0.31s
+2023.11.09 14:14:17 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\20231109.scala
+2023.11.09 14:14:17 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/20231109.scala
+2023.11.09 14:14:17 INFO  Disconnecting from scala-cli session...
+2023.11.09 14:14:17 INFO  Shut down connection with build server.
+2023.11.09 14:14:17 INFO  Attempting to connect to the build server...
+2023.11.09 14:14:17 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.09 14:14:17 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/20231109.scala
+2023.11.09 14:14:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.09 14:14:22 INFO  time: Connected to build server in 5.08s
+2023.11.09 14:14:22 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.09 14:14:23 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:23 INFO  time: compiled pp202302_bd2c96d2de in 0.16s
+2023.11.09 14:14:23 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:23 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.11.09 14:14:24 INFO  time: indexed workspace in 1.27s
+2023.11.09 14:14:25 INFO  time: compiled pp202302_bd2c96d2de in 0.98s
+2023.11.09 14:14:25 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:25 INFO  Deduplicating compilation of pp202302_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 3.915s)
+2023.11.09 14:14:25 INFO  Refreshed build after change
+2023.11.09 14:14:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231109.scala
+2023.11.09 14:14:25 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:25 INFO  BSP server: Nov 09, 2023 2:14:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+2023.11.09 14:14:25 INFO  BSP server: WARNING: Unmatched cancel notification for request id 12
+2023.11.09 14:14:25 INFO  Disconnecting from scala-cli session...
+2023.11.09 14:14:25 INFO  Cancelling compilation on scala-cli server
+2023.11.09 14:14:25 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231109.scala
+2023.11.09 14:14:25 INFO  time: compiled pp202302_bd2c96d2de in 0.1s
+2023.11.09 14:14:25 INFO  Shut down connection with build server.
+2023.11.09 14:14:25 INFO  BSP server: Nov 09, 2023 2:14:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2023.11.09 14:14:25 INFO  BSP server: WARNING: Notification threw an exception: {
+2023.11.09 14:14:25 INFO  Attempting to connect to the build server...
+2023.11.09 14:14:25 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.09 14:14:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.09 14:14:26 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231109.scala
+2023.11.09 14:14:31 INFO  time: Connected to build server in 5.34s
+2023.11.09 14:14:31 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.09 14:14:31 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:31 INFO  time: compiled pp202302_bd2c96d2de in 0.21s
+2023.11.09 14:14:31 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:31 INFO  time: compiled pp202302_bd2c96d2de in 0.17s
+2023.11.09 14:14:32 INFO  time: indexed workspace in 1.31s
+2023.11.09 14:14:33 INFO  compiling pp202302_bd2c96d2de (2 scala sources)
+2023.11.09 14:14:34 INFO  time: compiled pp202302_bd2c96d2de in 1.15s
+2023.11.09 14:14:34 INFO  Refreshed build after change
+2023.11.09 14:14:34 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231109.scala
+Exception in thread "pool-11-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-11-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+11¿ù 09, 2023 2:20:00 ¿ÀÈÄ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+°æ°í: Unmatched cancel notification for request id 226
+2023.11.09 14:35:20 WARN  no build target for: C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231109-2.scala
+2023.11.09 14:35:20 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231109-2.scala
+2023.11.09 14:35:20 INFO  Disconnecting from scala-cli session...
+2023.11.09 14:35:20 INFO  Shut down connection with build server.
+2023.11.09 14:35:20 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/20231109-2.scala
+2023.11.09 14:35:20 INFO  Attempting to connect to the build server...
+2023.11.09 14:35:20 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.09 14:35:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.09 14:35:26 INFO  time: Connected to build server in 5.07s
+2023.11.09 14:35:26 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.09 14:35:26 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.09 14:35:26 INFO  time: compiled pp202302_bd2c96d2de in 0.21s
+2023.11.09 14:35:26 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.09 14:35:26 INFO  time: compiled pp202302_bd2c96d2de in 0.14s
+2023.11.09 14:35:27 INFO  time: indexed workspace in 1.39s
+2023.11.09 14:35:28 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.09 14:35:28 INFO  time: compiled pp202302_bd2c96d2de in 0.98s
+2023.11.09 14:35:29 INFO  Refreshed build after change
+11¿ù 09, 2023 2:35:38 ¿ÀÈÄ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+°æ°í: Unmatched cancel notification for request id 311
+11¿ù 09, 2023 2:35:51 ¿ÀÈÄ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+°æ°í: Unmatched cancel notification for request id 341

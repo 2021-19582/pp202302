@@ -1,0 +1,32 @@
+S<:S'
+T<:T'
+
+(T'=>S) <: (T=>S') !!!
+
+f: T=>S' f(t:T):S
+g: T'=>S
+
+g(t:T):S
+
+
+--- classes ---
+what is class: computationally, same as structural type
+differnece is that structural type has structural polymorphism (duck typing) 
+while class has ad hoc polymorphism
+
+OOP: object oriented programming
+
+```
+type gee_type = <val name; String; valage
+
+```- 
+'''
+
+ckass ubturidycruib roicd
+geee <!
+
+
+
+class 를 통해서 만들면 같은 int type 이더라도 성질을 부여햘 수 있음
+type로 한다면 그냥 바로 access해서 새로운 함수, 환경에서 성질을 mandatory하게 부여해야 한다.
+
