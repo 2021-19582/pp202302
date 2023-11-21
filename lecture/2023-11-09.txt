@@ -1,0 +1,19 @@
+오후 2:28 2023-11-09
+type이란. 어떤 value들의 집합
+List[Int]: type
+T: Type이면
+List[T]: Type
+--> 그러면 List는 뭐지? Type->Type 
+List: Type->Type (* -> *) // type을 *라고 한다.
+이렇게 List는 higher type-
+우리는 higher type도 polymorphic하게 할 수 있음
+
+cf. map
+l.map(f): List[B]
+l: List[A]
+f: A->B
+l에 있는 각원소를 f()를 통해 B로 전환해 B의 list로 변환하는 것
+
+우리가 map을 추상화 하여 넣고 싶다...
+그게 바로 higher kind가 하는 것
+

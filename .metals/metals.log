@@ -3980,3 +3980,81 @@ Exception in thread "pool-11-thread-2" java.lang.InterruptedException
 경고: Unmatched cancel notification for request id 311
 11월 09, 2023 2:35:51 오후 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 경고: Unmatched cancel notification for request id 341
+2023.11.10 13:54:56 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+2023.11.10 13:54:57 INFO  Cancelling compilation on scala-cli server
+2023.11.10 13:54:56 INFO  Disconnecting from scala-cli session...
+2023.11.10 13:54:56 INFO  Shut down connection with build server.
+2023.11.10 13:54:57 INFO  Failed to run request with params ScalaMainClassesResult
+2023.11.10 13:54:57 INFO  Failed to run request with params ScalaTestClassesResult
+2023.11.10 13:54:57 INFO  scala-cli should support `buildTarget/jvmRunEnvironment`, but it fails.
+2023.11.10 13:54:57 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+2023.11.10 13:54:57 INFO  Attempting to connect to the build server...
+2023.11.10 13:54:57 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.10 13:54:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 13:55:02 INFO  time: Connected to build server in 5.19s
+2023.11.10 13:55:02 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.10 13:55:03 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.10 13:55:03 INFO  time: compiled pp202302_bd2c96d2de in 0.16s
+2023.11.10 13:55:03 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.10 13:55:03 INFO  time: compiled pp202302_bd2c96d2de in 0.15s
+2023.11.10 13:55:04 INFO  time: indexed workspace in 1.73s
+2023.11.10 14:20:53 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.10 14:20:53 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.10 14:20:53 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.10 14:20:53 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.10 14:20:53 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.10 14:20:53 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.10 14:20:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.10 14:20:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.10 14:20:54 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.10 14:20:54 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.10 14:20:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.10 14:20:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.10 14:20:55 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.10 14:20:55 INFO  time: compiled pp202302_bd2c96d2de in 0.15s
+2023.11.10 14:20:55 INFO  Refreshed build after change
+2023.11.10 14:20:55 WARN  Could not find semantic tokens for: file:///C:/Users/amych/github_SNU/2023-2/pp202302/pp2023-scala/src/main/scala/Main.scala
+11월 10, 2023 2:26:19 오후 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+정보: Unsupported notification method: $/setTrace
+11월 10, 2023 2:26:21 오후 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+정보: Unsupported notification method: $/setTrace
+2023.11.10 16:01:24 INFO  Shutting down server
+2023.11.10 16:01:24 INFO  shutting down Metals
+2023.11.10 16:01:24 INFO  Shut down connection with build server.
+2023.11.10 16:01:24 INFO  Exiting server
+2023.11.21 14:02:09 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.2.
+2023.11.21 14:02:11 WARN  No build session currently active to reload.
+2023.11.21 14:02:11 INFO  Attempting to connect to the build server...
+2023.11.21 14:02:11 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.21 14:02:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.21 14:02:13 INFO  BSP server: Starting compilation server
+2023.11.21 14:02:16 INFO  no build target found for C:\Users\amych\github_SNU\2023-2\pp202302\pp2023-scala\src\main\scala\20231109-2.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.21 14:02:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.21 14:02:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.21 14:02:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.21 14:02:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.21 14:02:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.21 14:02:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.21 14:02:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.21 14:02:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.21 14:02:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.21 14:02:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.21 14:02:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.21 14:02:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.21 14:02:25 INFO  time: Connected to build server in 13s
+2023.11.21 14:02:25 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.21 14:02:25 INFO  time: Imported build in 0.15s
+2023.11.21 14:02:26 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.21 14:02:27 INFO  time: indexed workspace in 2.32s
+2023.11.21 14:02:29 INFO  time: compiled pp202302_bd2c96d2de in 3.27s
+2023.11.21 14:02:29 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.21 14:02:29 INFO  time: compiled pp202302_bd2c96d2de in 0.18s
+2023.11.21 14:11:43 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.21 14:11:43 INFO  time: compiled pp202302_bd2c96d2de in 0.36s
+2023.11.21 14:11:44 INFO  compiling pp202302_bd2c96d2de (3 scala sources)
+2023.11.21 14:11:44 INFO  time: compiled pp202302_bd2c96d2de in 0.34s
+2023.11.21 16:16:46 INFO  Shutting down server
+2023.11.21 16:16:46 INFO  shutting down Metals
+2023.11.21 16:16:46 INFO  Shut down connection with build server.
+2023.11.21 16:16:46 INFO  Cancelling compilation on scala-cli server
+2023.11.21 16:16:46 INFO  Exiting server

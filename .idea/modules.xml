@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pp2023-scala1.iml" filepath="$PROJECT_DIR$/.idea/modules/pp2023-scala1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pp2023-scala1/.idea/modules/pp2023-scala1-build.iml" filepath="$PROJECT_DIR$/pp2023-scala1/.idea/modules/pp2023-scala1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pp2023-scala2.iml" filepath="$PROJECT_DIR$/.idea/modules/pp2023-scala2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pp2023-scala2/.idea/modules/pp2023-scala2-build.iml" filepath="$PROJECT_DIR$/pp2023-scala2/.idea/modules/pp2023-scala2-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pp202302.iml" filepath="$PROJECT_DIR$/.idea/pp202302.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pp202302-build.iml" filepath="$PROJECT_DIR$/.idea/modules/pp202302-build.iml" />
     </modules>
   </component>
 </project>
