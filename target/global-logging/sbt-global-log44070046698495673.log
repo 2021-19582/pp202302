@@ -1,0 +1,11 @@
+[debug] > Exec(cd pp2023-scala, None, None)
+[error] Expected ID character
+[error] Not a valid command: cd
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: cd
+[error] cd pp2023-scala
+[error]   ^
+[debug] > Exec(idea-shell, None, None)

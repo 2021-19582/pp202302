@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="pp2023-scala1,pp2023-scala2,pp202302" />
+    <profile name="sbt 1" modules="lectureCodes,pp2023-scala1,pp2023-scala2,pp202302" />
   </component>
 </project>

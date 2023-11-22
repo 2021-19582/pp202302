@@ -3,6 +3,16 @@
   <component name="ScalaSbtSettings">
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lectureCodes" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lectureCodes" />
+            <option value="$PROJECT_DIR$/lectureCodes/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.9.7" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/pp2023-scala1" />
         <option name="modules">
           <set>
@@ -10,7 +20,7 @@
             <option value="$PROJECT_DIR$/pp2023-scala1/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.9.7" />
+        <option name="sbtVersion" value="1.9.2" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/pp2023-scala2" />
