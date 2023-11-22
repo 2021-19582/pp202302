@@ -181,8 +181,29 @@ def t2: BSTree2[String] =
     Node((7,"My7"),Node((6,"My6"),Leaf(),Leaf()),Leaf()))
 
 lookup2(t2, 7) // val res9: MyOption[String] = MySome(My7)
-lookup2(t2, 3) // val res10: MyOption[String] = MyNone()
+lookup2(t2, 3) // val res1-0: MyOption[String] = MyNone()
 
 //
 // Polymorphic Option (Library)
 //
+
+//Option[T] (library)
+//introduction:
+//  None
+//  Some(x: T)
+//elimination: pattern matching, library functions
+
+Some(3): Option[Int]
+Some("abc"): Option[String]
+None: Option[Int] // unlike INone(), None does not need parenthesis... HOW?
+None: Option[String]
+
+//List[T] (library)
+//introduction:
+//  Nil
+//  x::L
+//elimination: pattern matching, library functions
+
+"abc"::Nil : List[String]
+List(1, 3, 4, 2, 5)
+1::3::4::2::5::Nil : List[Int] // val res13: List[Int] = List(1, 3, 4, 2, 5)
