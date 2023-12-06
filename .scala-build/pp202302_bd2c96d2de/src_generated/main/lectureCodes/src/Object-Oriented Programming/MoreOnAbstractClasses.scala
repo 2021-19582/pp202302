@@ -1,3 +1,12 @@
+
+package lectureCodes.src.Object$minusOriented$u0020Programming
+
+
+
+final class MoreOnAbstractClasses$_ {
+def args = MoreOnAbstractClasses_sc.args$
+def scriptPath = """lectureCodes/src/Object-Oriented Programming/MoreOnAbstractClasses.sc"""
+/*<script>*/
 //
 // Problem: Iter for MyTree
 //
@@ -63,7 +72,6 @@ sumElements[Int]((x)=>x*x)(t20)
 //
 // Solution: Better Interface
 //
-
 abstract class Iterable3[A] {
   def iter: Iter[A]
 }
@@ -128,69 +136,81 @@ generateTree3(5)
 //
 // Iter <: Iterable
 //
+abstract class Iter4[A] /*extends Iterable4[A]*/{
+  def getValue: Option[A]
+  def getNext: Iter4[A]
+  def iter = this
+}
+abstract class Iterable4[A] {
+  def iter: Iter4[A]
+}
 
-
-{
-  // mutual recursion requires brackets in scala worksheet
-  // also classes only exist within the brackets so be careful with scopes
-  abstract class Iterable4[A] {
-    def iter: Iter4[A]
-  }
-
-  abstract class Iter4[A] extends Iterable4[A] {
-    def getValue: Option[A]
-    def getNext: Iter4[A]
-    def iter = this
-  }
-
-  def sumElementsGen4[A](f: A => Int)(l: Iter4[A]): Int = {
-    l.getValue match {
-      case None => 0
-      case Some(a) => f(a) + sumElementsGen4(f)(l.getNext)
-    }
-  }
-
-  sealed abstract class MyList4[A] extends Iter4[A]
-  case class MyNil4[A]() extends MyList4[A] {
-    override def getValue: Option[A] = None
-
-    override def getNext: Iter4[A] = this
-    //  override def iter: Iter4[A] = this // unnecessary since already defined in Iter
-  }
-  case class MyCons4[A](val hd: A, val tl: MyList4[A]) extends MyList4[A] {
-    override def getValue: Option[A] = Some(hd)
-
-    override def getNext: Iter4[A] = tl
-  }
-
-  val lst4: MyList4[Int] =
-    MyCons4(3, MyCons4(4, MyCons4(2, MyNil4())))
-
-  sumElementsGen4[Int]((x) => x)(lst4) // val res3: Int = 9
-
-  //
-  // Note: tail-recursive append
-  //
-  sealed abstract class MyList5[A] extends Iter4[A] {
-    def append(lst: MyList5[A]): MyList5[A] =
-      MyList5.revAppend(MyList5.revAppend(this, MyNil5()), lst)
-  }
-  object MyList5 { // Mutual references are allowed between class T and object T
-    // Tail-recursive functions should be written in “object”, or as final methods
-    def revAppend[A](lst1: MyList5[A], lst2: MyList5[A]): MyList5[A] =
-      lst1 match {
-        case MyNil5() => lst2
-        case MyCons5(hd, tl) => revAppend(tl, MyCons5(hd, lst2))
-      }
-  }
-  case class MyNil5[A]() extends MyList5[A] {
-    override def getValue: Option[A] = None
-
-    override def getNext: Iter4[A] = this
-  }
-  case class MyCons5[A](value: A, tl: MyList5[A]) extends MyList5[A] {
-    override def getValue: Option[A] = Some(value)
-
-    override def getNext: Iter4[A] = tl
+def sumElementsGen4[A](f: A=>Int)(l: Iter4[A]): Int = {
+  l.getValue match{
+    case None => 0
+    case Some(a) => f(a) + sumElementsGen4(f)(l.getNext)
   }
 }
+
+sealed abstract class MyList4[A] extends Iter4[A]
+case class MyNil4[A]() extends MyList4[A]{
+  override def getValue: Option[A] = None
+  override def getNext: Iter4[A] = this
+//  override def iter: Iter4[A] = this // unnecessary since already defined in Iter
+}
+case class MyCons4[A](val hd: A, val tl: MyList4[A]) extends MyList4[A]{
+  override def getValue: Option[A] = Some(hd)
+  override def getNext: Iter4[A] = tl
+}
+
+val lst4: MyList4[Int] =
+  MyCons4(3, MyCons4(4, MyCons4(2, MyNil4())))
+
+sumElementsGen4[Int]((x)=>x)(lst4) // val res3: Int = 9
+
+//
+// Note: tail-recursive append
+//
+sealed abstract class MyList5[A] extends Iter4[A]{
+  def append(lst: MyList5[A]): MyList5[A] =
+    MyList5.revAppend(MyList5.revAppend(this, MyNil5()), lst)
+}
+object MyList5{
+  def revAppend[A] (lst1: MyList5[A], lst2: MyList5[A]): MyList5[A] =
+    lst1 match{
+      case MyNil5() => lst2
+      case MyCons5(hd, tl) => revAppend(tl, MyCons5(hd, lst2))
+    }
+}
+case class MyNil5[A]() extends MyList5[A] {
+  override def getValue: Option[A] = None
+  override def getNext: Iter4[A] = this
+}
+case class MyCons5[A](value: A, tl: MyList5[A]) extends MyList5[A] {
+  override def getValue: Option[A] = Some(value)
+  override def getNext: Iter4[A] = tl
+}
+/*</script>*/ /*<generated>*/
+/*</generated>*/
+}
+
+object MoreOnAbstractClasses_sc {
+  private var args$opt0 = Option.empty[Array[String]]
+  def args$set(args: Array[String]): Unit = {
+    args$opt0 = Some(args)
+  }
+  def args$opt: Option[Array[String]] = args$opt0
+  def args$: Array[String] = args$opt.getOrElse {
+    sys.error("No arguments passed to this script")
+  }
+
+  lazy val script = new MoreOnAbstractClasses$_
+
+  def main(args: Array[String]): Unit = {
+    args$set(args)
+    script.hashCode() // hashCode to clear scalac warning about pure expression in statement position
+  }
+}
+
+export MoreOnAbstractClasses_sc.script as MoreOnAbstractClasses
+
