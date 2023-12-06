@@ -4058,3 +4058,110 @@ Exception in thread "pool-11-thread-2" java.lang.InterruptedException
 2023.11.21 16:16:46 INFO  Shut down connection with build server.
 2023.11.21 16:16:46 INFO  Cancelling compilation on scala-cli server
 2023.11.21 16:16:46 INFO  Exiting server
+2023.11.30 15:16:20 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.2.
+2023.11.30 15:16:21 WARN  No build session currently active to reload.
+2023.11.30 15:16:21 INFO  Attempting to connect to the build server...
+2023.11.30 15:16:21 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.30 15:16:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.30 15:16:23 INFO  BSP server: Starting compilation server
+2023.11.30 15:16:33 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.30 15:16:33 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.11.30 15:16:33 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.30 15:16:33 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.11.30 15:16:33 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.30 15:16:33 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.30 15:16:33 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.30 15:16:33 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.11.30 15:16:35 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.30 15:16:35 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.30 15:16:35 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.30 15:16:35 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.11.30 15:16:35 INFO  time: Connected to build server in 14s
+2023.11.30 15:16:35 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.30 15:16:35 INFO  time: Imported build in 0.16s
+2023.11.30 15:16:37 INFO  compiling pp202302_bd2c96d2de (17 scala sources)
+2023.11.30 15:16:39 INFO  time: indexed workspace in 3.45s
+2023.11.30 15:16:42 INFO  time: compiled pp202302_bd2c96d2de in 5.08s
+2023.11.30 15:16:42 INFO  compiling pp202302_bd2c96d2de (17 scala sources)
+2023.11.30 15:16:43 INFO  time: compiled pp202302_bd2c96d2de in 1.59s
+2023.11.30 15:19:49 INFO  Disconnecting from scala-cli session...
+2023.11.30 15:19:49 INFO  Shut down connection with build server.
+2023.11.30 15:19:49 INFO  Attempting to connect to the build server...
+2023.11.30 15:19:49 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.11.30 15:19:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.30 15:19:55 INFO  time: Connected to build server in 6.12s
+2023.11.30 15:19:55 INFO  Connected to Build server: scala-cli v1.0.4
+2023.11.30 15:19:56 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.11.30 15:19:57 INFO  time: indexed workspace in 1.61s
+2023.11.30 15:19:58 INFO  time: compiled pp202302_bd2c96d2de in 2.67s
+2023.11.30 15:19:58 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.11.30 15:19:59 INFO  time: compiled pp202302_bd2c96d2de in 0.82s
+2023.12.01 13:18:01 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.2.
+2023.12.01 13:18:05 WARN  No build session currently active to reload.
+2023.12.01 13:18:05 INFO  Attempting to connect to the build server...
+2023.12.01 13:18:05 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.12.01 13:18:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.01 13:18:06 INFO  BSP server: Starting compilation server
+2023.12.01 13:18:13 INFO  time: Connected to build server in 7.96s
+2023.12.01 13:18:13 INFO  Connected to Build server: scala-cli v1.0.4
+2023.12.01 13:18:14 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.12.01 13:18:16 INFO  time: indexed workspace in 2.34s
+2023.12.01 13:18:18 INFO  time: compiled pp202302_bd2c96d2de in 3.78s
+2023.12.01 13:18:18 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.12.01 13:18:19 INFO  time: compiled pp202302_bd2c96d2de in 1.33s
+2023.12.02 10:39:49 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.2.
+2023.12.02 10:39:54 WARN  No build session currently active to reload.
+2023.12.02 10:39:54 INFO  Attempting to connect to the build server...
+2023.12.02 10:39:54 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.12.02 10:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 10:39:56 INFO  BSP server: Starting compilation server
+2023.12.02 10:40:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.12.02 10:40:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.12.02 10:40:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.12.02 10:40:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.12.02 10:40:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.02 10:40:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.02 10:40:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.02 10:40:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.02 10:40:06 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.02 10:40:06 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.02 10:40:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.02 10:40:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.02 10:40:07 INFO  time: Connected to build server in 13s
+2023.12.02 10:40:07 INFO  Connected to Build server: scala-cli v1.0.4
+2023.12.02 10:40:07 INFO  time: Imported build in 0.15s
+2023.12.02 10:40:08 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.12.02 10:40:13 INFO  time: indexed workspace in 5.65s
+2023.12.02 10:40:19 INFO  time: compiled pp202302_bd2c96d2de in 10s
+2023.12.02 10:40:19 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.12.02 10:40:26 INFO  time: compiled pp202302_bd2c96d2de in 6.44s
+2023.12.04 13:12:05 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\amych\github_SNU\2023-2\pp202302' for client Visual Studio Code 1.84.2.
+2023.12.04 13:12:09 WARN  No build session currently active to reload.
+2023.12.04 13:12:09 INFO  Attempting to connect to the build server...
+2023.12.04 13:12:09 INFO  Running BSP server List(C:\Users\amych\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\amych\github_SNU\2023-2\pp202302\.scala-build\ide-options-v2.json, C:\Users\amych\github_SNU\2023-2\pp202302)
+2023.12.04 13:12:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\amych\github_SNU\2023-2\pp202302\.metals\bsp.trace.json or C:\Users\amych\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.04 13:12:11 INFO  BSP server: Starting compilation server
+2023.12.04 13:12:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.12.04 13:12:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.12.04 13:12:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.12.04 13:12:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.12.04 13:12:19 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.04 13:12:19 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.04 13:12:19 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.04 13:12:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.12.04 13:12:20 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.04 13:12:20 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.04 13:12:20 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.04 13:12:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.12.04 13:12:21 INFO  time: Connected to build server in 11s
+2023.12.04 13:12:21 INFO  Connected to Build server: scala-cli v1.0.4
+2023.12.04 13:12:21 INFO  time: Imported build in 0.17s
+2023.12.04 13:12:22 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.12.04 13:12:26 INFO  time: indexed workspace in 4.89s
+2023.12.04 13:12:29 INFO  time: compiled pp202302_bd2c96d2de in 6.84s
+2023.12.04 13:12:29 INFO  compiling pp202302_bd2c96d2de (18 scala sources)
+2023.12.04 13:12:29 INFO  time: compiled pp202302_bd2c96d2de in 0.32s
+2023.12.05 23:01:31 INFO  Shutting down server
+2023.12.05 23:01:31 INFO  shutting down Metals
+2023.12.05 23:01:31 INFO  Shut down connection with build server.
+2023.12.05 23:01:31 INFO  Exiting server

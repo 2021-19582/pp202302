@@ -7,7 +7,17 @@ final class asdf$_ {
 def args = asdf_sc.args$
 def scriptPath = """lectureCodes/src/Object-Oriented Programming/asdf.sc"""
 /*<script>*/
+{
+  abstract class Iterable[A] {
+    def iter : Iter[A]
+  }
 
+  abstract class Iter[A] extends Iterable[A] {
+    def getValue: Option[A]
+    def getNext: Iter[A]
+    def iter = this
+  }
+}
 /*</script>*/ /*<generated>*/
 /*</generated>*/
 }
