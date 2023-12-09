@@ -71,6 +71,7 @@ given intOrd2: Ord2[Int] with // implicit val intOrd2(a: Int)
 
 // Bag Example using type class
 class Bag2[A: Ord2] protected (val toList: List[A]) {
+  // no need to use A <: Ord[A]
   def this()= this(Nil) // Nil extends List[Nothing]
   def add(x: A): Bag2[A] = {
     def loop(elmts: List[A]): List[A] =
@@ -86,6 +87,7 @@ class Bag2[A: Ord2] protected (val toList: List[A]) {
 }
 (new Bag2[Int]()).add(3).add(2).add(3).add(10).toList
 // val res5: List[Int] = List(2, 3, 10)
+
 
 // Bootstrapping Implicits
 given tupOrd2[A, B](using Ord2[A], Ord2[B]): Ord2[(A, B)] with
