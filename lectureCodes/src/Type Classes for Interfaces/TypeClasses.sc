@@ -11,7 +11,7 @@ trait Ord[A] {
 def max3[A](a: A, b: A, c: A)(implicit ord: Ord[A]): A =
   if (ord.<=(a, b)) { if (ord.<=(b, c)) c else b}
   else              { if (ord.<=(a, c)) c else b}
-// behaves like Int <: Ord in OOP
+// behaves like Int, String, ..., A <: Ord in OOP
 
 implicit val stringOrd : Ord[String] = new Ord[String] {
   def cmp(me: String, you: String) = me.toInt - you.toInt }
@@ -38,12 +38,12 @@ def foo (s: String)(implicit t: String) = s + t
 implicit val exclamation: String = "!!!!!!!!!!"
 foo("Hi")
 // val res3: String = Hi!!!!!!!!!!
-foo("Hi")("??????????")
+foo("Hi")("??????????") // can be given explicitly
 // val res4: String = Hi??????????
 
 // Syntax for type class: syntactic sugar
-trait Ord2[A]:
-  extension(a:A)
+trait Ord2[A]: // things for type Ord2
+  extension(a:A) // things for instance a of A <: Ord2
     def cmp (b:A): Int
     def === (b:A) = a.cmp(b) == 0
     def <   (b:A) = a.cmp(b) <  0
@@ -61,9 +61,13 @@ def max3_2[A: Ord2](a: A, b: A, c: A): A =
   }
 //def max3_2[A](a: A, b: A, c: A)(implicit evidence$1: Ord2[A]): A
 
-given intOrd2: Ord2[Int] with
-  extension (a: Int)
+given intOrd2: Ord2[Int] with // implicit val intOrd2(a: Int)
+  extension (a: Int) // a : Int <: Ord2[Int]
     def cmp(b: Int) = a - b
+//implicit val intOrd2: Ord2[Int] = new Ord2[Int] {
+//  extension (a: Int)
+//    def cmp (b: Int): Int = a-b
+//} // same thing!
 
 // Bag Example using type class
 class Bag2[A: Ord2] protected (val toList: List[A]) {
