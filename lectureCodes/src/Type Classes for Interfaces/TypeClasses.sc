@@ -90,14 +90,16 @@ class Bag2[A: Ord2] protected (val toList: List[A]) {
 
 
 // Bootstrapping Implicits
-given tupOrd2[A, B](using Ord2[A], Ord2[B]): Ord2[(A, B)] with
+given tupOrd2[A, B](using Ord2[A], Ord2[B]): Ord2[(A, B)] with // with is like 'new'
+  // using is identical to implicit
   extension (a: (A, B))
     def cmp(b: (A, B)): Int ={
-      val c1 = a._1.cmp(b._1)
+      val c1 = a._1.cmp(b._1) // using Ord2[A] is required to use A.cmp
+                              // also when actually performing, a given cmp function for type A must be noted
       if (c1 != 0) c1 else a._2.cmp(b._2)
     }
 
-val b2 = new Bag2[(Int, (Int, Int))]
+val b2 = new Bag2[(Int, (Int, Int))] // now we can compare all sorts of ILists!
 b2.add((3, (3, 4))).add((3, (2, 7))).add((4, (0, 0))).toList
 // val res6: List[(Int, (Int, Int))] = List((3,(2,7)), (3,(3,4)), (4,(0,0)))
 
